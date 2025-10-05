@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 240,
+    "build": 239,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -1150,6 +1150,150 @@
         "name": "galva.jpg",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "main menu bgm - mata elang.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "main menu bgm - mata elang.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "button mulai - mata elang.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "button mulai - mata elang.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "level 1 bgm - mata elang.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "level 1 bgm - mata elang.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "button hint - mata elang.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "button hint - mata elang.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sfx pencet hint (benda yang goyang)- mata elang-1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sfx pencet hint (benda yang goyang)- mata elang-1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "jawaban benar - mata elang.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "jawaban benar - mata elang.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "jawaban salah - mata elang.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "jawaban salah - mata elang.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite29",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "level selesai - mata elang.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "level selesai - mata elang.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "level 2 bgm - mata elang.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "level 2 bgm - mata elang.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite30",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pas bintang muncul abis selesai level 2 - mata elang.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "pas bintang muncul abis selesai level 2 - mata elang.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "level selesai - mata elang2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "level selesai - mata elang2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite31",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "level 3 bgm - mata elang.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "level 3 bgm - mata elang.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1711,7 +1855,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4789341884535252,
+        "zoomFactor": 0.43357743047023795,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2603,6 +2747,29 @@
           "actions": [
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "skor",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "button mulai - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -2766,6 +2933,25 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "main menu bgm - mata elang.wav",
+                "1",
+                "yes",
+                "70",
+                "1"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -2897,7 +3083,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7619362677197681,
+        "zoomFactor": 0.37971210019479745,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3951,6 +4137,150 @@
           "x": 168,
           "y": 259,
           "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "keepRatio": true,
+          "layer": "",
+          "name": "pencetsalah",
+          "opacity": 0,
+          "persistentUuid": "f89a7a4a-d0af-4df1-9a10-1c7c2f4ad51e",
+          "width": 200,
+          "x": 771,
+          "y": 579,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 103,
+          "keepRatio": true,
+          "layer": "",
+          "name": "pencetsalah",
+          "opacity": 0,
+          "persistentUuid": "97c38c36-ef29-4262-8251-ea80fa8609c5",
+          "width": 261,
+          "x": 675,
+          "y": 109,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 234,
+          "keepRatio": true,
+          "layer": "",
+          "name": "pencetsalah",
+          "opacity": 0,
+          "persistentUuid": "b6ca6341-11bc-4ce0-adc1-409c82707f2f",
+          "width": 161,
+          "x": 979,
+          "y": 376,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "pencetsalah",
+          "opacity": 0,
+          "persistentUuid": "eb3fb81c-0a13-42ee-81b2-af2d9f08ab53",
+          "width": 92,
+          "x": 834,
+          "y": 450,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 103,
+          "keepRatio": true,
+          "layer": "",
+          "name": "pencetsalah",
+          "opacity": 0,
+          "persistentUuid": "e84abb78-54e8-46f6-be7d-aaf588d495c9",
+          "width": 261,
+          "x": 119,
+          "y": 106,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 234,
+          "keepRatio": true,
+          "layer": "",
+          "name": "pencetsalah",
+          "opacity": 0,
+          "persistentUuid": "02b4bc74-4201-491c-bce6-ea06d4b7383d",
+          "width": 161,
+          "x": 418,
+          "y": 363,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "keepRatio": true,
+          "layer": "",
+          "name": "pencetsalah",
+          "opacity": 0,
+          "persistentUuid": "43ba5e2c-289b-42cd-9fe7-adcae183d943",
+          "width": 200,
+          "x": 210,
+          "y": 582,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "pencetsalah",
+          "opacity": 0,
+          "persistentUuid": "d88a7045-8635-4c04-b3ca-6ce04d7e6874",
+          "width": 92,
+          "x": 270,
+          "y": 455,
+          "zOrder": 56,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6146,6 +6476,78 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "pencetsalah",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite24",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite29",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6259,6 +6661,9 @@
           },
           {
             "objectName": "pencetboneka"
+          },
+          {
+            "objectName": "pencetsalah"
           }
         ]
       },
@@ -6300,6 +6705,19 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "jawaban benar - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "Create"
@@ -6408,6 +6826,19 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "jawaban benar - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "Create"
@@ -6516,6 +6947,19 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "jawaban benar - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "Create"
@@ -6626,6 +7070,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "jawaban benar - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Create"
               },
               "parameters": [
@@ -6716,6 +7173,36 @@
           "conditions": [
             {
               "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "pencetsalah",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "jawaban salah - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "NumberVariable"
               },
               "parameters": [
@@ -6766,12 +7253,39 @@
               "parameters": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "button hint - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx pencet hint (benda yang goyang)- mata elang-1.wav",
+                    "2",
+                    "no",
+                    "100",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "AjoutHasard"
@@ -6842,7 +7356,21 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "level 1 bgm - mata elang.wav",
+                "1",
+                "yes",
+                "70",
+                "1"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -7355,6 +7883,29 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "level selesai - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "skor",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
@@ -7584,7 +8135,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.34375202416123213,
+        "zoomFactor": 0.26364576737708106,
         "windowMask": false
       },
       "objectsGroups": [
@@ -8274,6 +8825,456 @@
           "x": -1156,
           "y": -967,
           "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 104,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "82c9a24b-0f34-430a-989d-5c0c4dab87e1",
+          "width": 96,
+          "x": 1086,
+          "y": 588,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 314,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "2dc8215b-0417-4955-93bd-8c72e8bde6d5",
+          "width": 89,
+          "x": 676,
+          "y": 305,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 104,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "6b1f1624-20ec-4df9-af66-8029063315df",
+          "width": 96,
+          "x": 521,
+          "y": 590,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 52,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "6c9d4981-2efc-4a1c-9f0f-93cfe3aed7c1",
+          "width": 120,
+          "x": 954,
+          "y": 391,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "9bb5607e-7427-4c3b-a376-e4639e478e3e",
+          "width": 269,
+          "x": 679,
+          "y": 622,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "9754b472-01e8-4528-b371-01c41a455856",
+          "width": 258,
+          "x": 121,
+          "y": 616,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 53,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "27cd8791-3e7d-4da9-b9bb-a8f9cf64714b",
+          "width": 180,
+          "x": 236,
+          "y": 446,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 314,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "5eb4ddba-e661-4cf3-b43e-bbe2226494f1",
+          "width": 45,
+          "x": 753,
+          "y": 298,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "dc7a58ba-e23f-4d9f-979c-e1b27721ea3e",
+          "width": 258,
+          "x": 120,
+          "y": 220,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "10d524f1-6b84-43fe-8a5f-2432a988d45e",
+          "width": 258,
+          "x": 910,
+          "y": 115,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "3fa5e92e-37ef-45ac-ada3-5f44b9708c71",
+          "width": 258,
+          "x": 912,
+          "y": 189,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "3bb47d5a-a4c5-4db0-849a-ef6ad01701bb",
+          "width": 248,
+          "x": 929,
+          "y": 253,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "203dee89-835b-49b6-9d80-542ba7b33c1d",
+          "width": 138,
+          "x": 1039,
+          "y": 322,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "05f9ec00-2caa-4dfc-9384-4d48d2f1fb43",
+          "width": 138,
+          "x": 956,
+          "y": 329,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "d62c7bd4-a661-4f9f-bbf5-4419ddf6f4d5",
+          "width": 299,
+          "x": 318,
+          "y": 113,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "98374828-1d11-4cd7-ae0c-fa121ec3bb00",
+          "width": 299,
+          "x": 322,
+          "y": 177,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "fd79ddd1-b42a-47a3-a0dc-bad41df27bb2",
+          "width": 299,
+          "x": 315,
+          "y": 238,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "301cd78f-4377-4d16-bb6e-3576bd73e87c",
+          "width": 224,
+          "x": 395,
+          "y": 310,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "170aff93-7bb7-42bf-9d72-57b3e1bc840e",
+          "width": 224,
+          "x": 398,
+          "y": 384,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "fe71ad1f-4c87-4e83-827d-3a452c014177",
+          "width": 86,
+          "x": 378,
+          "y": 501,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "2b835a0e-1ead-4321-bd41-6eeb8eb33277",
+          "width": 86,
+          "x": 932,
+          "y": 489,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "58ae29f2-6495-406d-9d90-c10f6f3f78de",
+          "width": 258,
+          "x": 674,
+          "y": 232,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 314,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "df637802-356e-4de9-9000-f3435f2edf38",
+          "width": 89,
+          "x": 120,
+          "y": 300,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 314,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "bbf84b53-9078-4e7c-b8dd-a995f5a67712",
+          "width": 45,
+          "x": 208,
+          "y": 302,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 53,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "9aa8dc95-8ed8-457d-89c4-077d42c40a0f",
+          "width": 180,
+          "x": 763,
+          "y": 446,
+          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9466,6 +10467,78 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "salah",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite7",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite30",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -9524,6 +10597,9 @@
           },
           {
             "objectName": "NewSprite6"
+          },
+          {
+            "objectName": "salah"
           }
         ]
       },
@@ -9685,6 +10761,19 @@
                 "20",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "jawaban benar - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
             }
           ]
         },
@@ -9772,6 +10861,19 @@
                 "+",
                 "20",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "jawaban benar - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
               ]
             }
           ]
@@ -9861,6 +10963,19 @@
                 "20",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "jawaban benar - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
             }
           ]
         },
@@ -9948,6 +11063,19 @@
                 "+",
                 "20",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "jawaban benar - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
               ]
             }
           ]
@@ -10037,6 +11165,19 @@
                 "20",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "jawaban benar - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
             }
           ]
         },
@@ -10095,12 +11236,39 @@
               "parameters": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "button hint - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx pencet hint (benda yang goyang)- mata elang-1.wav",
+                    "2",
+                    "no",
+                    "100",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "AjoutHasard"
@@ -10169,9 +11337,54 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "level 2 bgm - mata elang.wav",
+                "1",
+                "no",
+                "70",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "salah",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "jawaban salah - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -10684,6 +11897,29 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "level selesai - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "skor",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
@@ -10729,6 +11965,19 @@
               },
               "parameters": [
                 "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "pas bintang muncul abis selesai level 2 - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
               ]
             },
             {
@@ -10918,7 +12167,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.1830573495556012,
+        "zoomFactor": 0.6244537826600025,
         "windowMask": false
       },
       "objectsGroups": [
@@ -11695,7 +12944,7 @@
           "depth": 1,
           "height": 2168,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Layer",
           "name": "bin",
           "persistentUuid": "07ce828a-15e6-4241-813e-4f66d19a7fb1",
           "width": 3080,
@@ -11734,6 +12983,294 @@
           "x": 1083,
           "y": 30,
           "zOrder": 502,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 109,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "b2001bb2-419d-4dda-83b5-24fb44bba97b",
+          "width": 141,
+          "x": 769,
+          "y": 534,
+          "zOrder": 503,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 278,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "701952ad-623e-42cf-8966-691b20cd1be5",
+          "width": 198,
+          "x": 675,
+          "y": 180,
+          "zOrder": 503,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 243,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "1ac913c6-51b8-4c93-8987-b952a4f19b7a",
+          "width": 198,
+          "x": 958,
+          "y": 176,
+          "zOrder": 503,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 183,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "bc9547e3-74c7-46b4-b704-85edbbe95532",
+          "width": 198,
+          "x": 820,
+          "y": 272,
+          "zOrder": 503,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 183,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "43089ad3-72c6-4148-ab27-8224e7fceee8",
+          "width": 362,
+          "x": 678,
+          "y": 379,
+          "zOrder": 503,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "e7f9c239-f0a3-44be-b6ac-fb588d7c4faa",
+          "width": 77,
+          "x": 912,
+          "y": 588,
+          "zOrder": 503,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "eb03ec50-5780-48dc-bc95-6e0d8e50e4f8",
+          "width": 141,
+          "x": 1012,
+          "y": 529,
+          "zOrder": 503,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 109,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "b9d7f2d5-5685-4993-b8ef-c1534e0fbf1f",
+          "width": 141,
+          "x": 415,
+          "y": 425,
+          "zOrder": 503,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 278,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "a095e972-adea-4c35-bf51-78e5a85d3a18",
+          "width": 198,
+          "x": 123,
+          "y": 183,
+          "zOrder": 503,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 243,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "c73aacae-2527-4949-a453-fb384733f4e7",
+          "width": 198,
+          "x": 428,
+          "y": 184,
+          "zOrder": 503,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 183,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "da29ebeb-02cb-4fdd-b03e-d6fb56d49243",
+          "width": 198,
+          "x": 279,
+          "y": 267,
+          "zOrder": 503,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 183,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "aa5e554c-ba09-462a-9c50-486c546aa785",
+          "width": 93,
+          "x": 1007,
+          "y": 401,
+          "zOrder": 503,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 183,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "7211845a-3de1-419d-a303-c33f726ad6ea",
+          "width": 362,
+          "x": 119,
+          "y": 406,
+          "zOrder": 503,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 33,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "39ba7bc6-d3d5-40bc-b9fe-0e585c4cb6a4",
+          "width": 277,
+          "x": 205,
+          "y": 583,
+          "zOrder": 503,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "47ea797c-0ac1-4455-a34b-8835aa99c3c7",
+          "width": 323,
+          "x": 679,
+          "y": 559,
+          "zOrder": 503,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "salah",
+          "opacity": 0,
+          "persistentUuid": "cbf36409-09c7-4063-8944-41d53bbfbdfb",
+          "width": 141,
+          "x": 477,
+          "y": 529,
+          "zOrder": 503,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13744,6 +15281,78 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "salah",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite7",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite31",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -13829,6 +15438,9 @@
           },
           {
             "objectName": "bin"
+          },
+          {
+            "objectName": "salah"
           }
         ]
       },
@@ -13936,6 +15548,19 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "jawaban benar - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "Create"
@@ -14054,6 +15679,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "jawaban benar - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Create"
               },
               "parameters": [
@@ -14168,6 +15806,19 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "jawaban benar - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "Create"
@@ -14286,6 +15937,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "jawaban benar - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Create"
               },
               "parameters": [
@@ -14400,6 +16064,19 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "jawaban benar - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "Create"
@@ -14518,6 +16195,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "jawaban benar - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Create"
               },
               "parameters": [
@@ -14587,7 +16277,7 @@
               "parameters": [
                 "lebah",
                 "+",
-                "20",
+                "14.28571428571428",
                 ""
               ]
             },
@@ -14632,6 +16322,19 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "jawaban benar - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "Create"
@@ -14703,7 +16406,7 @@
               "parameters": [
                 "lebah",
                 "+",
-                "20",
+                "14.28571428571428",
                 ""
               ]
             },
@@ -14772,12 +16475,39 @@
               "parameters": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "button hint - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx pencet hint (benda yang goyang)- mata elang-1.wav",
+                    "2",
+                    "no",
+                    "100",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "AjoutHasard"
@@ -14842,123 +16572,54 @@
                   ]
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "ButtonStates::ButtonFSM::IsClicked"
-                      },
-                      "parameters": [
-                        "putih",
-                        "ButtonFSM",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ButtonStates::ButtonFSM::IsClicked"
-                      },
-                      "parameters": [
-                        "bitu",
-                        "ButtonFSM",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ButtonStates::ButtonFSM::IsClicked"
-                      },
-                      "parameters": [
-                        "hiym",
-                        "ButtonFSM",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ButtonStates::ButtonFSM::IsClicked"
-                      },
-                      "parameters": [
-                        "merah",
-                        "ButtonFSM",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ButtonStates::ButtonFSM::IsClicked"
-                      },
-                      "parameters": [
-                        "ijo",
-                        "ButtonFSM",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ButtonStates::ButtonFSM::IsClicked"
-                      },
-                      "parameters": [
-                        "bitawan",
-                        "ButtonFSM",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ButtonStates::ButtonFSM::IsClicked"
-                      },
-                      "parameters": [
-                        "ungu",
-                        "ButtonFSM",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ShakeObject::ShakeObject_PositionAngleScale::StopShaking"
-                  },
-                  "parameters": [
-                    "object",
-                    "ShakeObject_PositionAngleScale",
-                    ""
-                  ]
-                }
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "salah",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "jawaban salah - mata elang.wav",
+                "2",
+                "no",
+                "100",
+                "1"
               ]
             }
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
             {
               "type": {
-                "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
-                "object",
-                "Tween",
-                "\"\"",
-                "2",
-                "\"linear\"",
-                "1",
                 "",
-                "yes"
+                "level 3 bgm - mata elang.wav",
+                "1",
+                "no",
+                "100",
+                "1"
               ]
             }
           ]
@@ -14991,6 +16652,59 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Layer",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -15390,6 +17104,29 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "level selesai - mata elang2.wav",
+                "2",
+                "no",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "skor",
+                "=",
+                "0"
+              ]
+            },
             {
               "type": {
                 "value": "OpacityCapability::OpacityBehavior::SetValue"
@@ -18647,7 +20384,6 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -18657,7 +20393,6 @@
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
-              "choices": [],
               "name": "Effect"
             },
             {
@@ -19097,7 +20832,6 @@
               "extraInformation": [
                 "AnimatableCapability::AnimatableBehavior"
               ],
-              "choices": [],
               "name": "Animation"
             },
             {
@@ -19107,7 +20841,6 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -20501,7 +22234,6 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -20511,7 +22243,6 @@
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
-              "choices": [],
               "name": "Effect"
             },
             {
@@ -21566,7 +23297,6 @@
               "extraInformation": [
                 "ScalableCapability::ScalableBehavior"
               ],
-              "choices": [],
               "name": "Scale"
             },
             {
@@ -21576,7 +23306,6 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -21586,7 +23315,6 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
-              "choices": [],
               "name": "Tween"
             },
             {
@@ -22608,7 +24336,6 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -22618,7 +24345,6 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
-              "choices": [],
               "name": "Tween"
             },
             {
@@ -26239,7 +27965,6 @@
                 "Label",
                 "FillBar"
               ],
-              "choices": [],
               "hidden": true,
               "name": "BarLeftPadding"
             },
@@ -26252,7 +27977,6 @@
                 "Label",
                 "FillBar"
               ],
-              "choices": [],
               "hidden": true,
               "name": "BarTopPadding"
             },
@@ -26265,7 +27989,6 @@
                 "Label",
                 "FillBar"
               ],
-              "choices": [],
               "hidden": true,
               "name": "BarRightPadding"
             },
@@ -26278,7 +28001,6 @@
                 "Label",
                 "FillBar"
               ],
-              "choices": [],
               "hidden": true,
               "name": "BarBottomPadding"
             },
@@ -26345,7 +28067,6 @@
               "extraInformation": [
                 "Thumb"
               ],
-              "choices": [],
               "hidden": true,
               "name": "ThumbAnchorOrigin"
             },
@@ -26357,7 +28078,6 @@
               "extraInformation": [
                 "FillBar"
               ],
-              "choices": [],
               "hidden": true,
               "name": "ThumbAnchorTarget"
             },
@@ -26369,7 +28089,6 @@
               "extraInformation": [
                 "Label"
               ],
-              "choices": [],
               "hidden": true,
               "name": "ShowLabel"
             },
@@ -31834,7 +33553,6 @@
               "extraInformation": [
                 "ScalableCapability::ScalableBehavior"
               ],
-              "choices": [],
               "name": "Scale"
             }
           ],
