@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 239,
+    "build": 242,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -2940,7 +2940,7 @@
           "actions": [
             {
               "type": {
-                "value": "PlaySoundCanal"
+                "value": "PlayMusicCanal"
               },
               "parameters": [
                 "",
@@ -7359,7 +7359,7 @@
           "actions": [
             {
               "type": {
-                "value": "PlaySoundCanal"
+                "value": "PlayMusicCanal"
               },
               "parameters": [
                 "",
@@ -7367,7 +7367,7 @@
                 "1",
                 "yes",
                 "70",
-                "1"
+                ""
               ]
             }
           ]
@@ -11337,19 +11337,18 @@
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
             {
               "type": {
-                "value": "PlaySoundCanal"
+                "value": "PlayMusicCanal"
               },
               "parameters": [
                 "",
                 "level 2 bgm - mata elang.wav",
                 "1",
-                "no",
+                "yes",
                 "70",
                 "1"
               ]
@@ -16611,14 +16610,14 @@
           "actions": [
             {
               "type": {
-                "value": "PlaySoundCanal"
+                "value": "PlayMusicCanal"
               },
               "parameters": [
                 "",
                 "level 3 bgm - mata elang.wav",
                 "1",
-                "no",
-                "100",
+                "yes",
+                "70",
                 "1"
               ]
             }
@@ -20384,6 +20383,7 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
+              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -20393,6 +20393,7 @@
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
+              "choices": [],
               "name": "Effect"
             },
             {
@@ -20832,6 +20833,7 @@
               "extraInformation": [
                 "AnimatableCapability::AnimatableBehavior"
               ],
+              "choices": [],
               "name": "Animation"
             },
             {
@@ -20841,6 +20843,7 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
+              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -22234,6 +22237,7 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
+              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -22243,6 +22247,7 @@
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
+              "choices": [],
               "name": "Effect"
             },
             {
@@ -23297,6 +23302,7 @@
               "extraInformation": [
                 "ScalableCapability::ScalableBehavior"
               ],
+              "choices": [],
               "name": "Scale"
             },
             {
@@ -23306,6 +23312,7 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
+              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -23315,6 +23322,7 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
+              "choices": [],
               "name": "Tween"
             },
             {
@@ -24336,6 +24344,7 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
+              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -24345,6 +24354,7 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
+              "choices": [],
               "name": "Tween"
             },
             {
@@ -27965,6 +27975,7 @@
                 "Label",
                 "FillBar"
               ],
+              "choices": [],
               "hidden": true,
               "name": "BarLeftPadding"
             },
@@ -27977,6 +27988,7 @@
                 "Label",
                 "FillBar"
               ],
+              "choices": [],
               "hidden": true,
               "name": "BarTopPadding"
             },
@@ -27989,6 +28001,7 @@
                 "Label",
                 "FillBar"
               ],
+              "choices": [],
               "hidden": true,
               "name": "BarRightPadding"
             },
@@ -28001,6 +28014,7 @@
                 "Label",
                 "FillBar"
               ],
+              "choices": [],
               "hidden": true,
               "name": "BarBottomPadding"
             },
@@ -28067,6 +28081,7 @@
               "extraInformation": [
                 "Thumb"
               ],
+              "choices": [],
               "hidden": true,
               "name": "ThumbAnchorOrigin"
             },
@@ -28078,6 +28093,7 @@
               "extraInformation": [
                 "FillBar"
               ],
+              "choices": [],
               "hidden": true,
               "name": "ThumbAnchorTarget"
             },
@@ -28089,6 +28105,7 @@
               "extraInformation": [
                 "Label"
               ],
+              "choices": [],
               "hidden": true,
               "name": "ShowLabel"
             },
@@ -33553,6 +33570,7 @@
               "extraInformation": [
                 "ScalableCapability::ScalableBehavior"
               ],
+              "choices": [],
               "name": "Scale"
             }
           ],
