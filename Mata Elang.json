@@ -1294,6 +1294,16 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "level 2 bgm - mata elang2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "level 2 bgm - mata elang2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2910,6 +2920,19 @@
                 "1",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "main menu bgm - mata elang.wav",
+                "1",
+                "yes",
+                "70",
+                "1"
+              ]
             }
           ]
         },
@@ -2937,21 +2960,7 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "PlayMusicCanal"
-              },
-              "parameters": [
-                "",
-                "main menu bgm - mata elang.wav",
-                "1",
-                "yes",
-                "70",
-                "1"
-              ]
-            }
-          ]
+          "actions": []
         }
       ],
       "layers": [
@@ -3083,7 +3092,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.37971210019479745,
+        "zoomFactor": 0.3925161175488268,
         "windowMask": false
       },
       "objectsGroups": [
@@ -6689,6 +6698,34 @@
           "conditions": [
             {
               "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "level 1 bgm - mata elang.wav",
+                "1",
+                "yes",
+                "70",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
@@ -7349,25 +7386,6 @@
                     ""
                   ]
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "PlayMusicCanal"
-              },
-              "parameters": [
-                "",
-                "level 1 bgm - mata elang.wav",
-                "1",
-                "yes",
-                "70",
-                ""
               ]
             }
           ]
@@ -10606,6 +10624,11 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -10625,6 +10648,19 @@
                 "lebah",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "level 2 bgm - mata elang2.wav",
+                "1",
+                "",
+                "70",
+                "1"
               ]
             },
             {
@@ -11332,25 +11368,6 @@
                     ""
                   ]
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "PlayMusicCanal"
-              },
-              "parameters": [
-                "",
-                "level 2 bgm - mata elang.wav",
-                "1",
-                "yes",
-                "70",
-                "1"
               ]
             }
           ]
@@ -15459,6 +15476,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "level 3 bgm - mata elang.wav",
+                "1",
+                "yes",
+                "70",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Tween::TweenBehavior::AddObjectScaleTween3"
               },
               "parameters": [
@@ -16607,21 +16637,7 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "PlayMusicCanal"
-              },
-              "parameters": [
-                "",
-                "level 3 bgm - mata elang.wav",
-                "1",
-                "yes",
-                "70",
-                "1"
-              ]
-            }
-          ]
+          "actions": []
         }
       ],
       "layers": [
