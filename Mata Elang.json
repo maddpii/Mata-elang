@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 242,
+    "build": 243,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -1865,8 +1865,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.43357743047023795,
-        "windowMask": false
+        "zoomFactor": 0.392516117548823,
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
@@ -1907,14 +1908,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 334,
+          "depth": 1,
+          "height": 219,
           "keepRatio": true,
           "layer": "",
           "name": "bocaxh3",
           "persistentUuid": "19dba4a0-042a-4b7a-b1ef-0d0d6325d89c",
-          "width": 582,
-          "x": 347,
+          "width": 204,
+          "x": 515,
           "y": -345,
           "zOrder": 2,
           "numberProperties": [],
@@ -1934,23 +1935,6 @@
           "x": 95,
           "y": 384,
           "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "elng1",
-          "persistentUuid": "53fd836a-ab8f-4002-adec-a8f827efc9cf",
-          "width": 0,
-          "x": 1376,
-          "y": 458,
-          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2005,15 +1989,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
+          "customSize": true,
+          "depth": 0,
+          "flippedX": true,
+          "height": 219,
           "layer": "",
-          "name": "elng2",
-          "persistentUuid": "a00ac6b7-2189-4dd0-838a-c5abd3e4c737",
-          "width": 0,
-          "x": -231,
-          "y": 468,
+          "name": "elng1",
+          "persistentUuid": "0a57869d-6327-4116-adc0-621794269ba5",
+          "width": 204,
+          "x": 774,
+          "y": -343,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -2268,7 +2253,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "image 12.png",
+                      "image": "Vector (2).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2284,20 +2269,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 8
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 582,
-                            "y": 8
+                            "x": 186,
+                            "y": 0
                           },
                           {
-                            "x": 582,
-                            "y": 323
+                            "x": 186,
+                            "y": 236
                           },
                           {
-                            "x": 6,
-                            "y": 323
+                            "x": 0,
+                            "y": 236
                           }
                         ]
                       ]
@@ -2855,7 +2840,22 @@
                 "Tween",
                 "\"\"",
                 "385",
-                "28",
+                "87\n",
+                "\"easeInOutQuart\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "elng1",
+                "Tween",
+                "\"\"",
+                "630",
+                "87\n",
                 "\"easeInOutQuart\"",
                 "1",
                 ""
@@ -2887,36 +2887,6 @@
                 "1124",
                 "271",
                 "\"easeInOutQuad\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "elng2",
-                "Tween",
-                "\"\"",
-                "45",
-                "468",
-                "\"linear\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "elng1",
-                "Tween",
-                "\"\"",
-                "1050",
-                "468",
-                "\"linear\"",
                 "1",
                 ""
               ]
@@ -3093,7 +3063,8 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.3925161175488268,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [
         {
@@ -7521,7 +7492,8 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.6040838749988865,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
@@ -8154,7 +8126,8 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.26364576737708106,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [
         {
@@ -11533,7 +11506,8 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.546875,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
@@ -12184,7 +12158,8 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.6244537826600025,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [
         {
@@ -16827,7 +16802,8 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.546875,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
@@ -26340,6 +26316,7 @@
               "initialVariables": []
             }
           ],
+          "editionSettings": {},
           "eventsFunctions": [
             {
               "fullName": "",
@@ -28400,7 +28377,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             },
             {
               "areaMaxX": 256,
@@ -28656,7 +28634,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             },
             {
               "areaMaxX": 626,
@@ -28913,7 +28892,21 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {
+                "grid": false,
+                "gridType": "rectangular",
+                "gridWidth": 32,
+                "gridHeight": 32,
+                "gridOffsetX": 0,
+                "gridOffsetY": 0,
+                "gridColor": 10401023,
+                "gridAlpha": 0.8,
+                "snap": false,
+                "zoomFactor": 1.1182108626198084,
+                "windowMask": false,
+                "selectedLayer": ""
+              }
             },
             {
               "areaMaxX": 265,
@@ -29169,7 +29162,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             }
           ]
         }
