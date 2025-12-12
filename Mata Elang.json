@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 243,
+    "build": 245,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -12,7 +12,7 @@
     "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "landscape",
-    "packageName": "com.example.gamename",
+    "packageName": "com.solu.mataelang",
     "pixelsRounding": false,
     "projectUuid": "4b9dad9c-5fac-4203-8699-ccce8380e7b9",
     "scaleMode": "linear",
@@ -70,12 +70,12 @@
       "progressBarMaxWidth": 200,
       "progressBarMinWidth": 40,
       "progressBarWidthPercent": 30,
-      "showGDevelopSplash": true,
+      "showGDevelopSplash": false,
       "showProgressBar": true
     },
     "watermark": {
       "placement": "bottom-left",
-      "showWatermark": true
+      "showWatermark": false
     },
     "authorIds": [],
     "authorUsernames": [],
@@ -1303,6 +1303,22 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "image 18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "image 18.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "image19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "image19.png",
+        "smoothed": true,
         "userAdded": false
       }
     ],
@@ -11813,7 +11829,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "BINTANG MENANG.png",
+                      "image": "image 18.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11829,20 +11845,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
-                            "y": 12
+                            "x": 11,
+                            "y": 9
                           },
                           {
-                            "x": 168,
-                            "y": 12
+                            "x": 204,
+                            "y": 9
                           },
                           {
-                            "x": 168,
-                            "y": 164
+                            "x": 204,
+                            "y": 195
                           },
                           {
-                            "x": 9,
-                            "y": 164
+                            "x": 11,
+                            "y": 195
                           }
                         ]
                       ]
@@ -12157,7 +12173,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6244537826600025,
+        "zoomFactor": 0.35534345588170035,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -15233,7 +15249,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "BINTANG MENANG.png",
+                      "image": "image19.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15249,20 +15265,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
-                            "y": 12
+                            "x": 11,
+                            "y": 9
                           },
                           {
-                            "x": 168,
-                            "y": 12
+                            "x": 204,
+                            "y": 9
                           },
                           {
-                            "x": 168,
-                            "y": 164
+                            "x": 204,
+                            "y": 195
                           },
                           {
-                            "x": 9,
-                            "y": 164
+                            "x": 11,
+                            "y": 195
                           }
                         ]
                       ]
@@ -16693,7 +16709,7 @@
           "isLocked": false,
           "name": "Layer",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
